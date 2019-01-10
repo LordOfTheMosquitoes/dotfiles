@@ -1,0 +1,86 @@
+URxvt*cursorBlink: 1
+URxvt*cursorUnderline: 1
+URxvt*cursorColor: #ff0000
+
+! special colors
+*.foreground:  #eeeeee
+*.background:  #000000
+
+
+! Normal
+! color0    black
+! color1    red
+! color2    green
+! color3    yellow
+! color4    blue
+! color5    purple
+! color6    cyan
+! color7    white
+
+! Light
+! color8    black
+! color9    red
+! color10    green
+! color11    yellow
+! color12    blue
+! color13    purple
+! color14    cyan
+! color15    white
+
+!!! MOJE BOJE
+
+! URxvt.color0: #000000
+! URxvt.color1: #cc0000
+! URxvt.color2: #99ff66
+! URxvt.color3: #00ff00
+! URxvt.color4: #666666
+! URxvt.color5: #ffff00
+! URxvt.color6: #ff6600
+! URxvt.color7: #d3d7cf
+! 
+! URxvt.color8: #555753
+! URxvt.color9: #ef2929
+! URxvt.color10: #8ae234
+! URxvt.color11: #fce9cf
+! URxvt.color12: #777777
+! URxvt.color13: #777777
+! URxvt.color14: #34e2e2
+! URxvt.color15: #eeeeec
+! URxvt.colorBD: #ffffff
+
+!!! DEFAULT ANSI (valjda)
+
+URxvt.color0: #000000
+URxvt.color1: #cd0000
+URxvt.color2: #00cd00
+URxvt.color3: #cdcd00
+URxvt.color4: #0000ee
+URxvt.color5: #cd00cd
+URxvt.color6: #00cdcd
+URxvt.color7: #e5e5e5
+
+URxvt.color8: #7f7f7f
+URxvt.color9: #ff0000
+URxvt.color10: #00ff00
+URxvt.color11: #ffff00
+URxvt.color12: #5c5cff
+URxvt.color13: #ff00ff
+URxvt.color14: #00ffff
+URxvt.color15: #ffffff
+
+URxvt*scrollBar:         false
+URxvt*scrollBar_right:   false
+
+URxvt*transparent:		false
+URxvt*shading:           20
+
+! EEEEEEEEEEE
+Urxvt.perl-ext-common: default,resize-font
+! Font
+URxvt.font: xft:Hack:pixelsize=14
+URxvt.letterSpace: -1
+URxvt.keysym.C-s:     resize-font:smaller
+URxvt.keysym.C-l:      resize-font:bigger
+
+*antialias:  true
+*autohint:   true
